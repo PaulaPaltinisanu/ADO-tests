@@ -3,3 +3,12 @@
 	returnString = "<<returned from FL>>"
 	
 End Function
+
+
+Function sayHello
+	Reporter.ReportEvent micPass, "Salutation 1", "HELLO"
+End Function
+
+Function throwFailure
+	Reporter.ReportEvent micFail, "Failure", "Failure Description"
+End Function
