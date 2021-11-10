@@ -1,0 +1,5 @@
+﻿Function returnString
+	
+	returnString = "<<returned from FL>>"
+	
+End Function
